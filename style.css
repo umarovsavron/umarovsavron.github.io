@@ -1,0 +1,39 @@
+h1{
+    color: coral; /*rang*/
+    font-size: 72px; /* yozuvning olchami*/
+    font-style: italic; /*yozuv stili*/
+    font-weight: 400;  /*qalinligi*/
+    text-align: center;
+cursor: progress;
+}
+
+p{
+    background-color: blue; /* orqa fon*/
+    color: silver; /*rang*/
+    line-height: 50px; /*qator orasidagi olcham*/
+    font-family: Arial, Helvetica, sans-serif; /* yozuv shrifti*/
+    border: 10px solid black; /*hoshiya*/
+    /*border-radius: 50%; //// dumaloq qiladi///// */
+    border-radius: 20px; /*burchak hoshiyasi*/
+    cursor: pointer; /*mishka*/
+    transition: 1s;
+    text-transform: uppercase;
+    width: 600px;
+}
+
+p:hover{
+    width: 600px;
+    background-color: brown;
+    text-decoration: underline;
+    color: black;
+    border: 2px double green;
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
